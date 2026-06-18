@@ -86,10 +86,3 @@ Project developed at MIT FabLab, Satbayev University with support from universit
 
 📄 License
 This project is open source. Hardware designs are licensed under CERN OHL‑S, software under MIT License.
-
-📬 Contact
-GitHub: github.com/your-username/flamingo
-
-Email: [your-email@example.com]
-
-FLAMINGO – See the invisible. Save the heritage.
