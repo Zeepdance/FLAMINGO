@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#30c9e8",
+                        "background-light": "#f6f8f8",
+                        "background-dark": "#111e21",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<title>MindsetFlow | Corporate Well-being</title>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex h-20 items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="flex items-center justify-center size-10 rounded-lg bg-primary text-background-dark">
+<span class="material-symbols-outlined font-bold">psychology</span>
+</div>
+<h2 class="text-xl font-black tracking-tight uppercase">MindsetFlow</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">How it Works</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Assessments</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Personalization</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Pricing</a>
+</nav>
+<div class="flex items-center gap-4">
+<div class="hidden sm:flex items-center bg-slate-200/50 dark:bg-slate-800/50 rounded-lg p-1">
+<button class="px-3 py-1 text-xs font-bold rounded-md bg-white dark:bg-slate-700 shadow-sm">EN</button>
+<button class="px-3 py-1 text-xs font-bold text-slate-500 hover:text-slate-900 dark:hover:text-slate-100">RU</button>
+<button class="px-3 py-1 text-xs font-bold text-slate-500 hover:text-slate-900 dark:hover:text-slate-100">KZ</button>
+</div>
+<button class="hidden lg:flex items-center justify-center rounded-xl bg-primary px-6 py-2.5 text-sm font-bold text-background-dark hover:brightness-110 transition-all">
+                            Get Started
+                        </button>
+<button class="md:hidden text-slate-900 dark:text-slate-100">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<section class="relative overflow-hidden pt-16 pb-24 lg:pt-32 lg:pb-40">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="flex flex-col gap-8 text-left max-w-2xl">
+<div class="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-1.5 text-primary">
+<span class="material-symbols-outlined text-sm">auto_awesome</span>
+<span class="text-xs font-bold uppercase tracking-wider">AI-Powered Well-being</span>
+</div>
+<h1 class="text-5xl font-black leading-tight tracking-tight sm:text-7xl">
+                                Your Journey to <span class="text-primary">Emotional Well-being</span> Starts Here
+                            </h1>
+<p class="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
+                                MindsetFlow uses advanced AI to help your team achieve balance, focus, and resilience through personalized wellness journeys and daily smart check-ins.
+                            </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="rounded-xl bg-primary px-8 py-4 text-base font-bold text-background-dark hover:shadow-lg hover:shadow-primary/20 transition-all">
+                                    Get Started Today
+                                </button>
+<button class="rounded-xl border-2 border-slate-200 dark:border-slate-800 px-8 py-4 text-base font-bold hover:bg-slate-50 dark:hover:bg-slate-800 transition-all">
+                                    View Demo
+                                </button>
+</div>
+</div>
+<div class="relative flex justify-center lg:justify-end">
+<div class="relative w-full max-w-lg aspect-square bg-gradient-to-tr from-primary/20 to-transparent rounded-full flex items-center justify-center p-8">
+<div class="w-full h-full rounded-3xl bg-white dark:bg-slate-800 shadow-2xl overflow-hidden border-8 border-slate-100 dark:border-slate-900">
+<div class="w-full h-full bg-slate-100 dark:bg-slate-700 bg-cover bg-center" data-alt="Friendly stylized 3D AI character smiling warmly" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCH_YErnoxR2C_gYzTbEwebJSO5CDryMxviMC8rk1KrMWiMdiIPX0C28rdDUUah31y1-vyozeWr7jwE-c872AMqAomSzcvHsp3XL-_vL3AjDgPleiw2GDQ7e6GFSbtjjRXNMl0ZNlcmIWijJd5Anyao3gY81dHII90V3nU8VQr_EfF0nqWODyxqDBnt5ATl38SyuFtnGRq8y4lVwxU48qcgFA9W8SZXCR6Gv51dSa0SQ2H98M8uc-GoZCHZWhSloagScSwMLIwDnUGo");'></div>
+</div>
+<div class="absolute -bottom-6 -left-6 bg-white dark:bg-slate-800 p-4 rounded-2xl shadow-xl flex items-center gap-4">
+<div class="size-12 rounded-full bg-primary/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">sentiment_very_satisfied</span>
+</div>
+<div>
+<p class="text-sm font-bold">Team Happiness</p>
+<p class="text-xs text-slate-500">+24% this month</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-white dark:bg-slate-900/50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<h2 class="text-3xl font-black sm:text-4xl mb-6">How it Works</h2>
+<p class="text-slate-600 dark:text-slate-400">Our seamless process integrates into your daily workflow to provide continuous support and actionable insights.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="p-8 rounded-2xl border border-slate-100 dark:border-slate-800 bg-background-light dark:bg-background-dark hover:border-primary/50 transition-colors">
+<div class="size-14 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-3xl">event_available</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Daily Check-ins</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">Quick 1-minute emotional pulses that help you reflect on your current state without disrupting your flow.</p>
+</div>
+<div class="p-8 rounded-2xl border border-slate-100 dark:border-slate-800 bg-background-light dark:bg-background-dark hover:border-primary/50 transition-colors">
+<div class="size-14 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-3xl">insights</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Mood Tracking</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">Advanced data visualization helps you and your team understand emotional trends and stress triggers over time.</p>
+</div>
+<div class="p-8 rounded-2xl border border-slate-100 dark:border-slate-800 bg-background-light dark:bg-background-dark hover:border-primary/50 transition-colors">
+<div class="size-14 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-3xl">self_improvement</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Guided Exercises</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">Tailored mindfulness sessions, breathing exercises, and focus boosters designed for your specific emotional state.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 overflow-hidden">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col lg:flex-row justify-between items-end gap-6 mb-12">
+<div class="max-w-2xl">
+<h2 class="text-3xl font-black sm:text-4xl mb-4">Our Assessments</h2>
+<p class="text-slate-600 dark:text-slate-400 text-lg">Scientifically-backed evaluations to understand your current mental landscape and track progress.</p>
+</div>
+<button class="text-primary font-bold flex items-center gap-2 hover:gap-3 transition-all">
+                            View all assessments <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+<div class="group relative rounded-3xl overflow-hidden shadow-xl aspect-video">
+<div class="absolute inset-0 bg-slate-200 dark:bg-slate-800 bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Person relaxing in a serene clinical setting" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDx75JZHb5iO8s-V1daYF-V4Ihzutqs1NHWFfO7vWrl7KSinpipnITCjZ11PJMkQT-gUtyz0uk7dRy-zirgfIr7VEWJJX7AtGzyncUTtybqW2Ywws5KWOXa-zUpIq0O-pfmgwOSyyrsLsYeY7ImIlvNizj1RZYr9il5VCBrPPiF6cVtaDJlLBYyD2M6swBL8L5-JQkroEYZmatQ1z0pmPW3kAuYaRlsqiKVwmoJdZOS2kxKzB7gJtqsV3XOmxQ1NVyrtMZNQOtG5vh4");'></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark/90 to-transparent flex flex-col justify-end p-8">
+<h3 class="text-white text-2xl font-bold mb-2">Clinical Screening</h3>
+<p class="text-slate-300 text-sm mb-4">Standardized tools for anxiety and depression screening used by mental health professionals worldwide.</p>
+<button class="w-fit px-6 py-2 bg-white text-background-dark text-sm font-bold rounded-xl">Start Assessment</button>
+</div>
+</div>
+<div class="group relative rounded-3xl overflow-hidden shadow-xl aspect-video">
+<div class="absolute inset-0 bg-slate-200 dark:bg-slate-800 bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Dynamic office environment with light stress metaphors" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBmo9J7bthCmlr3BY0cUsi-aiL7c1j3B0So1eP9Saqp3T7lLEakxmc4z7B8OvApgZnDcAdHm8bCl7ZFlrmC53LZcbDO8HL2YPYAVyRk8UTpQ7iRTqG9Qn4dUFGSgbBGYzsi6HW1KXN9PeCmYh4HlkVoxw9Zce2i1qP-Y_Sh2k5ZcrjCLJbMcq5VxU8Kj9C6_eeYu9PuPw5hmvrPQazTfWTbZG4FGFf4PuL8qioMNUskixNYeuUelpjn4NCBXoX0vVT11Vrw4g_Sd8GE");'></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark/90 to-transparent flex flex-col justify-end p-8">
+<h3 class="text-white text-2xl font-bold mb-2">Workplace Stress Index</h3>
+<p class="text-slate-300 text-sm mb-4">Identify burnout risks early and measure overall engagement levels within your specific corporate environment.</p>
+<button class="w-fit px-6 py-2 bg-white text-background-dark text-sm font-bold rounded-xl">Measure Burnout</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-background-dark text-white rounded-[3rem] mx-4 mb-24 overflow-hidden relative">
+<div class="absolute top-0 right-0 w-1/3 h-full bg-primary/10 blur-[100px] pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="flex flex-col lg:flex-row items-center gap-16">
+<div class="lg:w-1/2 flex flex-col gap-8">
+<h2 class="text-4xl font-black sm:text-5xl leading-tight">AI-Driven <br/><span class="text-primary">Personalization</span></h2>
+<p class="text-lg text-slate-400 leading-relaxed">
+                                MindsetFlow's neural engine learns your unique emotional patterns, work habits, and personal challenges. It doesn't just track; it evolves to deliver the right intervention at the exact moment you need it most.
+                            </p>
+<div class="space-y-4">
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-primary">verified</span>
+<p class="font-medium">Adaptive exercise recommendations</p>
+</div>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-primary">verified</span>
+<p class="font-medium">Predictive burnout alerts for management</p>
+</div>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-primary">verified</span>
+<p class="font-medium">Privacy-first data encryption</p>
+</div>
+</div>
+<button class="w-fit rounded-xl bg-primary px-10 py-4 text-base font-bold text-background-dark hover:brightness-110 transition-all">
+                                Discover the Tech
+                            </button>
+</div>
+<div class="lg:w-1/2">
+<div class="bg-slate-800 rounded-3xl p-8 border border-slate-700 shadow-2xl">
+<div class="flex items-center gap-4 mb-8">
+<div class="size-12 rounded-full bg-primary/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">smart_toy</span>
+</div>
+<div>
+<p class="font-bold">Neural Engine</p>
+<p class="text-xs text-slate-500">Processing real-time well-being metrics</p>
+</div>
+</div>
+<div class="space-y-6">
+<div class="h-2 bg-slate-700 rounded-full overflow-hidden">
+<div class="h-full bg-primary w-3/4"></div>
+</div>
+<div class="h-2 bg-slate-700 rounded-full overflow-hidden">
+<div class="h-full bg-primary w-1/2"></div>
+</div>
+<div class="h-2 bg-slate-700 rounded-full overflow-hidden">
+<div class="h-full bg-primary w-5/6"></div>
+</div>
+</div>
+<div class="mt-8 grid grid-cols-2 gap-4">
+<div class="p-4 bg-slate-700/50 rounded-xl">
+<p class="text-2xl font-black text-primary">98%</p>
+<p class="text-xs text-slate-400 uppercase font-bold tracking-widest">Accuracy</p>
+</div>
+<div class="p-4 bg-slate-700/50 rounded-xl">
+<p class="text-2xl font-black text-primary">24/7</p>
+<p class="text-xs text-slate-400 uppercase font-bold tracking-widest">Monitoring</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-white dark:bg-background-dark border-t border-slate-100 dark:border-slate-800 py-12">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center gap-3">
+<div class="flex items-center justify-center size-8 rounded-lg bg-primary text-background-dark">
+<span class="material-symbols-outlined text-sm font-bold">psychology</span>
+</div>
+<h2 class="text-lg font-black tracking-tight uppercase">MindsetFlow</h2>
+</div>
+<div class="flex gap-8 text-sm font-medium text-slate-500">
+<a class="hover:text-primary" href="#">Privacy Policy</a>
+<a class="hover:text-primary" href="#">Terms of Service</a>
+<a class="hover:text-primary" href="#">Cookie Policy</a>
+</div>
+<div class="text-sm text-slate-400">
+                        © 2024 MindsetFlow AI. All rights reserved.
+                    </div>
+</div>
+</div>
+</footer>
+<div class="fixed bottom-6 right-6 z-[100]">
+<button class="size-16 rounded-full bg-primary text-background-dark shadow-2xl flex items-center justify-center hover:scale-110 transition-transform group relative">
+<span class="material-symbols-outlined text-3xl">chat</span>
+<span class="absolute -top-1 -right-1 flex h-4 w-4">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-4 w-4 bg-primary"></span>
+</span>
+<div class="absolute right-20 bottom-0 bg-white dark:bg-slate-800 px-4 py-2 rounded-xl shadow-lg border border-slate-100 dark:border-slate-700 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+<p class="text-sm font-bold">How are you feeling today?</p>
+</div>
+</button>
+</div>
+</div>
+</body></html>
